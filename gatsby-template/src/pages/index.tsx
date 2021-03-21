@@ -1,4 +1,3 @@
-// If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
 import { PageProps, graphql } from "gatsby"
 
@@ -10,7 +9,7 @@ type DataProps = {
   }
 }
 
-const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
+const IndexPage: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <h1>Gatsby supports TypeScript by default!</h1>
     <p>
@@ -36,7 +35,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   </Layout>
 )
 
-export default UsingTypescript
+export default IndexPage
 
 export const query = graphql`
   {
