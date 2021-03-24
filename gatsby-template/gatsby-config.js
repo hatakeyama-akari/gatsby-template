@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: `test SS site`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-material-ui`],
 }
